@@ -8,6 +8,9 @@ from src.logger import logging
 
 from dataclasses import dataclass
 
+from src.components.vectorizer import C_Vectorizer
+from src.components.recommender import recommend
+
 @dataclass
 class DataIngestionConfig():
     raw_data_path: str=os.path.join("artifact","raw.csv")
@@ -43,7 +46,5 @@ class DataIngestion():
         except Exception as e:
             raise CustomException(e,sys)
             
-            
-if __name__ == "__main__":
-    obj = DataIngestion()
-    obj.initiate_data_ingestion()
+        
+
