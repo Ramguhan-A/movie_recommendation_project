@@ -1,4 +1,4 @@
-# Movie Recommendation engine 🎬:
+# Movie Recommendation system 🎬:
 
 ## Objective:
 System to enhance user engagement and discovery on our movie platform, we aim to develop content based movie recommendation system that predict and suggests the movie to those explicitly searched by user .
